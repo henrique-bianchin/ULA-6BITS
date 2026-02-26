@@ -3,11 +3,11 @@
 Este projeto consiste na implementação de uma ULA (ALU - Arithmetic Logic Unit) de 6 bits. Ela é capaz de realizar operações aritméticas básicas e operações lógicas bit a bit, servindo como o bloco construtor principal para o caminho de dados de um processador simples.
 
 
-⚙️ Funcionalidades
+## ⚙️ Funcionalidades
 A ULA processa dois operandos de entrada (A e B) e um sinal de controle (Seletor), gerando um resultado e flags de status.
 
 Operações Suportadas:
-Seletor (Binário),Operação,Descrição
+
 | Seletor | Operação                  | Descrição Técnica        | Status |
 | :---:   | :---                      | :---                     | :---: |
 | `0000`  | **SOMA**                  | A + B                    | ✅ OK |
@@ -25,6 +25,8 @@ Seletor (Binário),Operação,Descrição
 | `1100`  | **INCREMENTADOR**         | A + 1                    | ✅ OK |
 | `1101`  | **DECREMENTADOR**         | A - 1                    | ✅ OK |
 | `OTHERS`| **000000**                | NÃO FAZ NENHUMA OPERAÇÃO | ✅ OK |
+
+
 ## 🚩 Flags de Status
 A ULA monitora o resultado de cada operação e atualiza as seguintes flags:
 
@@ -34,6 +36,14 @@ A ULA monitora o resultado de cada operação e atualiza as seguintes flags:
 | **N** | Negativo   | Ativa (1) se o bit mais significativo (MSB) for 1 (indica valor negativo em Complemento de 2). |
 | **I** | Igualdade  | Ativa (1) se os números forem iguais (bit a bit).                                              |
 | **V** | Overflow   | Ativa (1) se ocorrer um erro de sinal em operações aritméticas.                                |
+
+
+### 🖥️ Pinagem, RTL Viewer da ULA E ULA na placa
+
+| Componente Interno | Pinagem na Placa |
+| :---: | :---: |
+| ![RTL Viewer](./assets/rtl.jpg) | ![Pinagem](./assets/pinagem.png) | ![Pinagem Circuito 1](./assets/pinagemcircuito.png) |  ![Pinagem Circuito 2](./assets/pinagemcircuito1.png) |
+![Placa](./assets/placa.jpg)
 
 🛠️ Tecnologias Utilizadas
 Linguagem: VHDL (IEEE 1164)
