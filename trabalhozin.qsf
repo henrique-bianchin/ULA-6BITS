@@ -1,0 +1,140 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 16:04:19  December 12, 2025
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		trabalhozin_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C35F672C6
+set_global_assignment -name TOP_LEVEL_ENTITY som_sub_6bits_7seg
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:04:19  DECEMBER 12, 2025"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name VHDL_FILE som_sub_6bits.vhd
+set_global_assignment -name VHDL_FILE full_adder.vhd
+set_global_assignment -name VHDL_FILE seg71.vhd
+set_global_assignment -name VHDL_FILE som_sub_6bits_7seg.vhd
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_AB24 -to disp1[6]
+set_location_assignment PIN_AA23 -to disp1[5]
+set_location_assignment PIN_AA24 -to disp1[4]
+set_location_assignment PIN_Y22 -to disp1[3]
+set_location_assignment PIN_W21 -to disp1[2]
+set_location_assignment PIN_V21 -to disp1[1]
+set_location_assignment PIN_V20 -to disp1[0]
+set_location_assignment PIN_V13 -to disp0[6]
+set_location_assignment PIN_V14 -to disp0[5]
+set_location_assignment PIN_AE11 -to disp0[4]
+set_location_assignment PIN_AD11 -to disp0[3]
+set_location_assignment PIN_AC12 -to disp0[2]
+set_location_assignment PIN_AB12 -to disp0[1]
+set_location_assignment PIN_AF10 -to disp0[0]
+set_location_assignment PIN_AF14 -to B[4]
+set_location_assignment PIN_AE14 -to B[3]
+set_location_assignment PIN_P25 -to B[2]
+set_location_assignment PIN_N26 -to B[1]
+set_location_assignment PIN_N25 -to B[0]
+set_location_assignment PIN_N1 -to A[4]
+set_location_assignment PIN_A13 -to A[3]
+set_location_assignment PIN_B13 -to A[2]
+set_location_assignment PIN_C13 -to A[1]
+set_location_assignment PIN_AC13 -to A[0]
+set_location_assignment PIN_AD12 -to overflow
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name VHDL_FILE shifter.vhd
+set_global_assignment -name VHDL_FILE funcaonot.vhd
+set_global_assignment -name VHDL_FILE funcaoor.vhd
+set_global_assignment -name VHDL_FILE funcaoand.vhd
+set_global_assignment -name VHDL_FILE comparador_igualdade.vhd
+set_location_assignment PIN_P1 -to A[5]
+set_location_assignment PIN_AD13 -to B[5]
+set_location_assignment PIN_AB23 -to disp2[6]
+set_location_assignment PIN_V22 -to disp2[5]
+set_location_assignment PIN_AC25 -to disp2[4]
+set_location_assignment PIN_AC26 -to disp2[3]
+set_location_assignment PIN_AB26 -to disp2[2]
+set_location_assignment PIN_AB25 -to disp2[1]
+set_location_assignment PIN_Y23 -to disp2[0]
+set_location_assignment PIN_AE12 -to igual
+set_location_assignment PIN_AE13 -to led
+set_location_assignment PIN_AF13 -to menor
+set_location_assignment PIN_V2 -to seletor[3]
+set_location_assignment PIN_V1 -to seletor[2]
+set_location_assignment PIN_U4 -to seletor[1]
+set_location_assignment PIN_U3 -to seletor[0]
+set_location_assignment PIN_AE15 -to zero
+set_location_assignment PIN_AC14 -to led[1]
+set_location_assignment PIN_AD23 -to led[0]
+set_location_assignment PIN_M4 -to disp1A[6]
+set_location_assignment PIN_M5 -to disp1A[5]
+set_location_assignment PIN_M3 -to disp1A[4]
+set_location_assignment PIN_M2 -to disp1A[3]
+set_location_assignment PIN_P3 -to disp1A[2]
+set_location_assignment PIN_P4 -to disp1A[1]
+set_location_assignment PIN_R2 -to disp1A[0]
+set_location_assignment PIN_T3 -to disp1B[6]
+set_location_assignment PIN_R6 -to disp1B[5]
+set_location_assignment PIN_R7 -to disp1B[4]
+set_location_assignment PIN_T4 -to disp1B[3]
+set_location_assignment PIN_U2 -to disp1B[2]
+set_location_assignment PIN_U1 -to disp1B[1]
+set_location_assignment PIN_U9 -to disp1B[0]
+set_location_assignment PIN_N9 -to disp2A[6]
+set_location_assignment PIN_P9 -to disp2A[5]
+set_location_assignment PIN_L7 -to disp2A[4]
+set_location_assignment PIN_L6 -to disp2A[3]
+set_location_assignment PIN_L9 -to disp2A[2]
+set_location_assignment PIN_L2 -to disp2A[1]
+set_location_assignment PIN_L3 -to disp2A[0]
+set_location_assignment PIN_R3 -to disp2B[6]
+set_location_assignment PIN_R4 -to disp2B[5]
+set_location_assignment PIN_R5 -to disp2B[4]
+set_location_assignment PIN_T9 -to disp2B[3]
+set_location_assignment PIN_P7 -to disp2B[2]
+set_location_assignment PIN_P6 -to disp2B[1]
+set_location_assignment PIN_T2 -to disp2B[0]
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform.vwf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform1.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/alunos/Downloads/trabalhocdfinal/trabalhovhd/output_files/Waveform1.vwf"
