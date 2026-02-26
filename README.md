@@ -38,14 +38,15 @@ A ULA monitora o resultado de cada operação e atualiza as seguintes flags:
 | **V** | Overflow   | Ativa (1) se ocorrer um erro de sinal em operações aritméticas.                                |
 
 
-### 🖥️ Pinagem, RTL Viewer da ULA E ULA na placa
+## 🖥️ Pinagem, RTL Viewer da ULA E ULA na placa
 
 | Componente Interno | Pinagem na Placa |
 | :---: | :---: |
-| ![RTL Viewer](./assets/rtl.jpg) | ![Pinagem](./assets/pinagem.png) | ![Pinagem Circuito 1](./assets/pinagemcircuito.png) |  ![Pinagem Circuito 2](./assets/pinagemcircuito1.png) |
-![Placa](./assets/placa.jpg)
+| ![RTL Viewer](./assets/rtl.jpg) | ![Pinagem](./assets/pinagem.png) |
+|![Placa](./assets/placa.jpg)  |  ![Pinagem Circuito 1](./assets/pinagemcircuito.png) |
+|![ULA](./assets/ula.jpg)      |  ![Pinagem Circuito 2](./assets/pinagemcircuito1.png) |
 
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 Linguagem: VHDL (IEEE 1164)
 
 Alvo de Síntese: Kit FPGA Altera DE-2
