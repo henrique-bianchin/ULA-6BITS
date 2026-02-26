@@ -44,7 +44,7 @@ A ULA monitora o resultado de cada operação e atualiza as seguintes flags:
 | :---: | :---: |
 | ![RTL Viewer](./assets/rtl.jpg) | ![Pinagem](./assets/pinagem.png) |
 |![Placa](./assets/placa.jpg)  |  ![Pinagem Circuito 1](./assets/pinagemcircuito.png) |
-|![ULA](./assets/ula.jpg)      |  ![Pinagem Circuito 2](./assets/pinagemcircuito1.png) |
+|![ULA](./assets/ula.jpg)      |  ![Pinagem Circuito 2](./assets/pinagemcircuito2.png) |
 
 ## 🛠️ Tecnologias Utilizadas
 Linguagem: VHDL (IEEE 1164)
